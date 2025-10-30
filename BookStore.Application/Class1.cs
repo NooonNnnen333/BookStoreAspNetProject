@@ -3,7 +3,7 @@ using BookStore.DateAccess.Reposotories;
 
 namespace BookStore.Application;
 
-public class BookService
+public class BookService : IBookService
 {
     private readonly IBooksRepository _booksRepository;
 
